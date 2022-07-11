@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(241, 241, 241);
+    color: rgb(235, 229, 229);
+    text-align: center;
+}
+
+.navbar a{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-weight: bold;
+}
+
+
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+
+#checkout{
+    border-radius: 6px;
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+}
+#checkout:hover{
+    background-color: #008CBA;
+    color: white;
+    transition-duration: 0.3s;
+}
